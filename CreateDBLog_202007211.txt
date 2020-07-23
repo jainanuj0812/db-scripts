@@ -1,0 +1,23 @@
+Generate a PostgreSQL 8.3 database.
+Date/time: 2020-07-21 15:15
+Database created.
+Add tables
+Add table "issuer"
+Table "issuer" added.
+Add table "region"
+Table "region" added.
+Add table "language"
+Table "language" added.
+Add table "countries"
+Table "countries" added.
+Add table "prcoessor"
+Table "prcoessor" added.
+Add table "user"
+Table "user" added.
+Add foreign key constraints
+Constraint "prcoessor.issuer_prcoessor" added.
+Constraint "prcoessor.region_prcoessor" added.
+Constraint "language.region_language" added.
+Constraint "countries.region_countries" added.
+Constraint "user.prcoessor_user" added.
+Constraint "user.issuer_user" added.

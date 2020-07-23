@@ -1,0 +1,43 @@
+Generate a PostgreSQL 8.3 database.
+Date/time: 2020-07-23 16:09
+Database created.
+Add tables
+Add table "issuer"
+Table "issuer" added.
+Add table "region"
+Table "region" added.
+Add table "language"
+Table "language" added.
+Add table "countries"
+Table "countries" added.
+Add table "language_countries"
+Table "language_countries" added.
+Add table "states"
+Table "states" added.
+Add table "rules"
+Table "rules" added.
+Add table "issuerCategory"
+Table "issuerCategory" added.
+Add table "issuer_issuerCategory"
+Table "issuer_issuerCategory" added.
+Add table "userField"
+Table "userField" added.
+Add table "userFieldOption"
+Table "userFieldOption" added.
+Add table "prcoessor"
+Table "prcoessor" added.
+Add table "user"
+Table "user" added.
+Add foreign key constraints
+Constraint "prcoessor.issuer_prcoessor" added.
+Constraint "prcoessor.region_prcoessor" added.
+Constraint "language.region_language" added.
+Constraint "countries.region_countries" added.
+Constraint "user.prcoessor_user" added.
+Constraint "user.issuer_user" added.
+Constraint "language_countries.language_language_countries" added.
+Constraint "language_countries.countries_language_countries" added.
+Constraint "states.countries_states" added.
+Constraint "issuer_issuerCategory.issuer_issuer_issuerCategory" added.
+Constraint "issuer_issuerCategory.issuerCategory_issuer_issuerCategory" added.
+Constraint "userFieldOption.userField_userFieldOption" added.
